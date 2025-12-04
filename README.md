@@ -1,50 +1,134 @@
-# 🍓 GenAI Coleta Assertiva – iFood
-## Integração entre Coletor → Sistema → Entregador para confirmar pedido realmente pronto
-
-### 🍉 Visão Geral
-
-Este projeto nasce de uma dor recorrente vivida por entregadores do iFood: o aplicativo sinaliza “pedido pronto”, mas ao chegar no mercado, a sacola ainda não foi coletada, separada ou conferida. Essa falha de sincronização gera espera desnecessária, estresse, conflitos e queda na produtividade.
-
-Em períodos de alta demanda, isso acontece em 80–90% das entregas. Como entregadora, essa experiência é diária — e afeta diretamente eficiência, reputação e renda.
-
-Este projeto propõe uma solução com GenAI que garante que o pedido só toque para o entregador quando estiver realmente pronto, validado e confirmado.
+# 🍓 **GenAI Coleta Assertiva – iFood**
+## **MVP focado exclusivamente no fluxo de MERCADOS**
+### **Validação automática para garantir que o pedido realmente esteja pronto antes de tocar para o entregador**
 
 ---
 
-## 🍇 Como funciona a solução
+## 🍉 **Visão Geral**
 
-1. O coletor do mercado finaliza a separação.
-2. Ele tira **uma foto da sacola finalizada**.
-3. A GenAI valida automaticamente:
-   - quantidade de itens
-   - integridade visual
-   - tipo de produto
-   - conferência básica
-4. Somente após essa validação, o sistema marca o pedido como **“Pronto para retirada”**.
-5. O entregador recebe a notificação real e confiável.
-6. Em caso de atraso na separação, o sistema ajusta automaticamente o tempo máximo de deslocamento.
+No fluxo de **mercados**, é comum o app indicar **“pedido pronto”** antes da hora.
 
-Resultado: o entregador **não chega mais para uma espera inesperada**.
+Mas, ao chegar no local, o entregador encontra pedidos ainda:
 
----
+- sendo **coletados** nas prateleiras,  
+- sendo **conferidos** pela prevenção,  
+- sendo **embalados** pelo **empacotador** — última etapa antes da liberação.
 
-## 🍍 Benefícios esperados
+Esse desencontro entre **status do app** e **status real da operação** gera:
 
-- Redução de filas e aglomerações nos mercados
-- Menos conflitos entre entregadores e funcionários
-- Evita desgaste emocional e perda de tempo
-- Fluxo operacional mais estável no last mile
-- Aumento direto da satisfação dos entregadores
-- Rota mais fluida e melhor aproveitamento de tempo
+- longos períodos de espera,  
+- acúmulo de entregadores,  
+- conflitos desnecessários,  
+- cancelamentos,  
+- perda de produtividade e renda.
+
+Como entregadora, isso acontece **diariamente** — especialmente em horários de pico.
+
+Este MVP propõe uma **camada simples de verificação via GenAI** para garantir que o pedido só toque para retirada quando estiver **REALMENTE pronto**.
 
 ---
 
-## 🍑 Próximas etapas do protótipo
+## 🍇 **Como a solução funciona**
 
-- Receber os prints reais das telas de corrida ativa do app
-- Criar um protótipo visual fiel ao app, mostrando:
-  - status real de coleta
-  - confirmação via foto
-  - fluxo de notificação inteligente
+Quando o **empacotador finaliza a sacola** (última etapa do fluxo de mercado):
 
-A solução combina GenAI, experiência prática como entregadora e visão de produto — criando um processo mais justo, eficiente e humano para quem está na rua.
+1. Ele tira **uma foto única** da sacola fechada, pronta para retirada.  
+2. A imagem é analisada por uma GenAI que verifica:
+   - **integridade visual** do pacote,  
+   - **quantidade de volumes**,  
+   - **coerência geral com a nota fiscal**,  
+   - **indícios visuais** de que o pedido está finalizado.  
+3. Após essa validação, o sistema muda o status para:
+
+   **✅ “Pronto para retirada”**
+
+4. Só então o entregador recebe a notificação.
+
+### 🎯 **Resultado direto**
+O entregador passa a chegar **apenas quando o pedido estiver realmente pronto**, reduzindo:
+
+- espera,  
+- cancelamentos por pedidos incompletos,  
+- frustração,  
+- atrito entre operação e entregadores.
+
+---
+
+## 🍍 **Por que isso importa especialmente para MERCADOS**
+
+O fluxo de mercado é completamente diferente do fluxo de restaurante.
+
+Há mais etapas internas:
+
+1. **Coletor** retira itens nas prateleiras  
+2. Itens seguem para **emissão da nota**  
+3. A **prevenção** confere item por item  
+4. O **empacotador** embala e finaliza o pedido
+
+Cada pedido pode estar em estágios diferentes.
+
+---
+
+### **Exemplo real da dor**
+
+O entregador recebe **5 pedidos** marcados como *“prontos”*.  
+Mas, ao chegar no mercado:
+
+- apenas **1 está realmente finalizado**,  
+- outros **4 ainda estão em processo** interno.
+
+Isso induz o entregador a:
+
+- **cancelar** os pedidos não concluídos,  
+- mesmo que alguns estivessem **quase prontos**,
+## Gerando:
+- perda de produtividade,  
+- impacto direto no fluxo interno do mercado,  
+- mais tempo até encontrar outro entregador,  
+- piora na experiência de todos os lados.
+
+A **GenAI Coleta Assertiva** reduz exatamente esse cenário.
+
+---
+
+## 🍑 **Benefícios esperados**
+
+### **Para o entregador**
+- redução de espera   
+- redução de cancelamentos evitáveis  
+- rota mais fluida  
+- menor desgaste emocional e físico  
+- renda mais estável e previsível  
+
+### **Para o mercado**
+- redução de aglomerações  
+- menos entregadores cobrando pedido não finalizado  
+- queda de conflitos no balcão  
+- redução de erros operacionais  
+
+### **Para a plataforma**
+- last mile mais eficiente  
+- menos cancelamentos e retrabalho  
+- status mais preciso para o entregador  
+- melhora geral da experiência na cadeia de entrega  
+
+---
+
+## ✨ **Conclusão**
+
+Este MVP **não substitui** processos internos do mercado.  
+Ele **adiciona uma camada simples, inteligente e verificável** que garante que o status **“pedido pronto” seja verdadeiro**.
+
+É uma solução:
+
+- simples de testar,  
+- fácil de integrar,  
+- coerente com o fluxo real,  
+- totalmente voltada para a melhoria da experiência do entregador.
+
+---
+
+## 🚚💡 **MVP EXCLUSIVO PARA MERCADOS**
+*(Restaurantes possuem outra dinâmica e outra lógica de preparo.  
+A dor abordada aqui é específica do fluxo de mercados.)*
+
