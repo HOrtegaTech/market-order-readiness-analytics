@@ -1,4 +1,4 @@
-# Problema de Negócio
+# Problema do Negocio
 
 ## Contexto
 
@@ -14,15 +14,15 @@ Essa diferença entre o status exibido no aplicativo e o status real do pedido g
 
 ## Observação em Campo
 
-No fluxo de mercados, o pedido normalmente passa por diferentes etapas:
+No fluxo de mercados o pedido normalmente passa por diferentes etapas:
 
 1. Coleta dos itens
 2. Conferência / prevenção de perdas
 3. Embalagem
 4. Liberação para retirada
 
-Entretanto, em alguns cenários, o status de "pedido pronto" pode ser exibido antes da conclusão da última etapa operacional.
+Porém, em alguns cenários, o status de "pedido pronto" pode ser exibido antes da conclusão da última etapa operacional.
 
-## Pergunta de Negócio
 
-Quais fatores aumentam a probabilidade de um entregador chegar para retirada e encontrar o pedido ainda em preparação?
+## Questão do negócio
+Quais fatores aumentam a probabilidade de um entregador chegar para retirar um pedido marcado como pronto e encontrá-lo ainda em preparação?
