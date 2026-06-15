@@ -1,1 +1,11 @@
 pedido_id,data_pedido,quantidade_itens,horario_pico,chuva,sazonal,espera_minutos,cancelado,etapa_atual,pronto_antecipado
+1,2026-01-05,8,Não,Não,Não,3,Não,Embalagem,Não
+2,2026-01-05,35,Sim,Não,Não,14,Não,Conferência,Sim
+3,2026-01-06,52,Sim,Sim,Não,22,Sim,Separação/coleta,Sim
+4,2026-01-06,12,Não,Não,Não,5,Não,Embalagem,Não
+5,2026-01-07,28,Sim,Não,Sim,16,Não,Conferência,Sim
+6,2026-01-08,45,Sim,Sim,Sim,25,Sim,Separação/coleta,Sim
+7,2026-01-08,6,Não,Não,Não,2,Não,Embalagem,Não
+8,2026-01-09,20,Sim,Não,Não,10,Não,Embalagem,Não
+9,2026-01-10,60,Sim,Sim,Sim,30,Sim,Separação/coleta,Sim
+10,2026-01-10,15,Não,Não,Não,6,Não,Conferência,Não
