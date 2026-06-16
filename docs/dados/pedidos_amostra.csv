@@ -1,21 +1,21 @@
 pedido_id,data_pedido,quantidade_itens,horario_pico,chuva,sazonal,espera_minutos,cancelado,etapa_atual,pronto_antecipado
-1,2026-01-05,8,Não,Não,Não,3,Não,Pronto para retirada,Não
-2,2026-01-05,35,Sim,Não,Não,14,Não,Conferência,Sim
-3,2026-01-06,52,Sim,Sim,Não,22,Sim,Separação/coleta,Sim
-4,2026-01-06,12,Não,Não,Não,5,Não,Pronto para retirada,Não
-5,2026-01-07,28,Sim,Não,Sim,16,Não,Embalagem,Sim
-6,2026-01-08,45,Sim,Sim,Sim,25,Sim,Separação/coleta,Sim
-7,2026-01-08,6,Não,Não,Não,2,Não,Pronto para retirada,Não
-8,2026-01-09,20,Sim,Não,Não,10,Não,Pronto para retirada,Não
-9,2026-01-10,60,Sim,Sim,Sim,30,Sim,Conferência,Sim
-10,2026-01-10,15,Não,Não,Não,6,Não,Pronto para retirada,Não
-11,2026-01-11,40,Sim,Não,Não,18,Não,Embalagem,Sim
-12,2026-01-12,18,Não,Sim,Não,12,Não,Conferência,Sim
-13,2026-01-13,7,Não,Não,Não,4,Não,Pronto para retirada,Não
-14,2026-01-14,55,Sim,Sim,Sim,28,Sim,Separação/coleta,Sim
-15,2026-01-15,22,Não,Não,Não,7,Não,Pronto para retirada,Não
-16,2026-01-16,32,Sim,Não,Sim,15,Não,Embalagem,Sim
-17,2026-01-17,10,Não,Não,Não,3,Não,Pronto para retirada,Não
-18,2026-01-18,48,Sim,Sim,Não,20,Não,Conferência,Sim
-19,2026-01-19,14,Não,Não,Não,5,Não,Pronto para retirada,Não
-20,2026-01-20,38,Sim,Não,Sim,17,Não,Embalagem,Sim
+1,2026-01-05,8,Nao,Nao,Nao,3,Nao,Pronto para retirada,Nao
+2,2026-01-05,35,Sim,Nao,Nao,14,Nao,Conferencia,Sim
+3,2026-01-06,52,Sim,Sim,Nao,22,Sim,Separacao/coleta,Sim
+4,2026-01-06,12,Nao,Nao,Nao,5,Nao,Pronto para retirada,Nao
+5,2026-01-07,28,Sim,Nao,Sim,16,Nao,Embalagem,Sim
+6,2026-01-08,45,Sim,Sim,Sim,25,Sim,Separacao/coleta,Sim
+7,2026-01-08,6,Nao,Nao,Nao,2,Nao,Pronto para retirada,Nao
+8,2026-01-09,20,Sim,Nao,Nao,10,Nao,Pronto para retirada,Nao
+9,2026-01-10,60,Sim,Sim,Sim,30,Sim,Conferencia,Sim
+10,2026-01-10,15,Nao,Nao,Nao,6,Nao,Pronto para retirada,Nao
+11,2026-01-11,40,Sim,Nao,Nao,18,Nao,Embalagem,Sim
+12,2026-01-12,18,Nao,Sim,Nao,12,Nao,Conferencia,Sim
+13,2026-01-13,7,Nao,Nao,Nao,4,Nao,Pronto para retirada,Nao
+14,2026-01-14,55,Sim,Sim,Sim,28,Sim,Separacao/coleta,Sim
+15,2026-01-15,22,Nao,Nao,Nao,7,Nao,Pronto para retirada,Nao
+16,2026-01-16,32,Sim,Nao,Sim,15,Nao,Embalagem,Sim
+17,2026-01-17,10,Nao,Nao,Nao,3,Nao,Pronto para retirada,Nao
+18,2026-01-18,48,Sim,Sim,Nao,20,Nao,Conferencia,Sim
+19,2026-01-19,14,Nao,Nao,Nao,5,Nao,Pronto para retirada,Nao
+20,2026-01-20,38,Sim,Nao,Sim,17,Nao,Embalagem,Sim
