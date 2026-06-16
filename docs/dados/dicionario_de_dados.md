@@ -10,5 +10,17 @@
 | sazonal | Sim/Não | Indica período sazonal ou comemorativo |
 | espera_minutos | Inteiro | Tempo de espera do entregador |
 | cancelado | Sim/Não | Indica se houve cancelamento |
-| etapa_atual | Texto | Etapa em que o pedido estava ao chegar |
+| etapa_atual | Texto | Etapa real do pedido no momento da chegada do entregador |
 | pronto_antecipado | Sim/Não | Pedido marcado como pronto antes da finalização |
+
+
+
+
+
+
+## Valores possíveis para etapa_atual
+
+- Separação/coleta
+- Conferência
+- Embalagem
+- Pronto para retirada
