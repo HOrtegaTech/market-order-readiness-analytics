@@ -21,6 +21,6 @@
 ## Valores possíveis para etapa_atual
 
 - Separação/coleta
-- Conferência
+- Conferencia
 - Embalagem
 - Pronto para retirada
