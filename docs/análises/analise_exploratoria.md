@@ -41,3 +41,36 @@ Essa análise inicial permite avançar para investigações sobre quais fatores 
 A base utilizada é sintética e foi criada exclusivamente para desenvolvimento da metodologia analítica.
 
 Os resultados não representam a operação real, mas permitem testar hipóteses e estruturar análises utilizando dados.
+
+
+
+
+---
+
+# Análise 2 - Tempo de espera por divergência de status
+
+## Objetivo
+
+Avaliar se pedidos marcados como prontos antes da finalização apresentam maior tempo de espera para o entregador.
+
+## Hipótese
+
+Pedidos com `pronto_antecipado = Sim` tendem a apresentar maior tempo de espera quando comparados aos pedidos sem divergência de status.
+
+## Variável analisada
+
+Tempo de espera:
+
+`espera_minutos`
+
+## Comparação
+
+Grupo 1:
+`pronto_antecipado = Sim`
+
+Grupo 2:
+`pronto_antecipado = Nao`
+
+## Observação
+
+O tempo de espera pode ser influenciado por outros fatores, como quantidade de itens, horário de pico e tempo de deslocamento do entregador até o estabelecimento.
