@@ -22,3 +22,12 @@ Após a finalização da embalagem, uma evidência visual do pedido é registrad
 ## Aprendizado
 
 O refinamento da solução demonstra a importância de validar uma ideia considerando o processo real de operação, buscando equilíbrio entre inovação e viabilidade.
+
+## Próximos pontos de validação
+
+Antes de uma implementação, a solução deve ser validada considerando o processo real dos mercados, avaliando:
+
+- facilidade de registro da evidência pelo operador;
+- qualidade das informações disponíveis na imagem;
+- precisão da validação realizada pela GenAI;
+- impacto no tempo operacional.
