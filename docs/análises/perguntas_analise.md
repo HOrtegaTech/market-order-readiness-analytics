@@ -31,7 +31,7 @@ cancelado
 ## 4. Quais fatores aumentam o risco?
 
 Fatores analisados:
-- quantidade_itens
-- horario_pico
-- chuva
-- sazonal
+- `quantidade_itens`
+- `horario_pico`
+- `chuva`
+- `sazonal`
