@@ -28,17 +28,17 @@ Este MVP propõe uma **camada simples de verificação via GenAI** para garantir
 
 ---
 
-## 🍇 **Como a solução funciona**
+## Solução proposta
 
-Quando o **empacotador finaliza a sacola** (última etapa do fluxo de mercado):
+A solução propõe utilizar GenAI como uma camada de validação do status de prontidão dos pedidos de mercado.
 
-1. Ele tira **uma foto única** da sacola fechada, pronta para retirada.  
-2. A imagem é analisada por uma GenAI que verifica:
-   - **integridade visual** do pacote,  
-   - **quantidade de volumes**,  
-   - **coerência geral com a nota fiscal**,  
-   - **indícios visuais** de que o pedido está finalizado.  
-3. Após essa validação, o sistema muda o status para:
+Após a finalização da embalagem, o responsável pela preparação registra uma evidência visual do pedido pronto para retirada.
+
+A GenAI analisa essa evidência considerando informações disponíveis de identificação do pedido e sinais visuais da finalização da embalagem, auxiliando na decisão de atualização do status.
+
+Com isso, o objetivo é reduzir a diferença entre o status informado no aplicativo e a realidade operacional, evitando deslocamentos antecipados dos entregadores, tempo de espera e impactos operacionais.
+
+3. Após uma validação positiva, o status do pedido pode ser atualizado para pronto para retirada:
 
    **✅ “Pronto para retirada”**
 
